@@ -1,0 +1,30 @@
+
+
+#Bloc_Page{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+    #Menu_du_header{
+        display: flex;
+        align-content: space-between;
+    }
+
+    #ul_menu{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .element_menu{
+        padding-left: 2em;
+    }
