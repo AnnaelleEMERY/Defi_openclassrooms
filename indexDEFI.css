@@ -17,7 +17,7 @@ header{
         align-content: space-between;
     }
 
-    #ul_menu{
+    ul.menu{
         list-style-type: none;
         display: flex;
         flex-direction: row;
@@ -71,13 +71,14 @@ header{
         border: 1px solid black;
         display: flex;
         flex-direction: row;
-        
+        justify-content: space-around;
     }
 
         .blocs{
             border: 1px solid black;
             text-align: center;
-            padding: 0em 2em 0em 2em;
+            width: 33%;
+            
         }
 
         .titre{
