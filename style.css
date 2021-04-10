@@ -53,7 +53,7 @@ header{
 
     }
 
-#Texts_blocs{
+.Texts_blocs{
     border: 1px solid black;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -62,18 +62,20 @@ header{
     padding: 2% 20% 0% 20%;
 }
 
-    #premier_text{
+    .premier_text{
         border: 1px solid black;
         text-align: center;
-        margin: 0% 0% 2% 0%;
+        margin: 0% 0% 3% 0%;
+        font-size: 1.35vw;
     }
 
-    #les_trois_blocs{
+    .les_trois_blocs{
         border: 1px solid black;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: 0% 0% 2% 0%;
+        flex-wrap: wrap;
+        margin: 0% 0% 4% 0%;
     }
 
         .blocs{
@@ -86,8 +88,24 @@ header{
             text-transform: uppercase;
         }
 
-    #dernier_text{
+
+    .bloc_dernier_text{
         border: 1px solid black;
-        margin: 0% 2% 2% 2%;
+        width: 90%;
+        margin: auto;
         text-align: center;
+    }
+
+    .dernier_text{
+        border: 1px solid black;
+        color: #575757;
+        font-size: 1.3vw;
+        margin: 0;
+    }
+
+    .Amandine{
+        border: 1px solid black;
+        font-size: 1vw;
+        color: #575C61;
+        margin: 0;
     }
