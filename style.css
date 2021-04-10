@@ -48,23 +48,27 @@ header{
     #Titre_centre{
         color: white;
         font-family: 'Roboto', sans-serif;
-        font-size: 2em;
+        font-size: 2.2em;
         text-align: center;
-
     }
 
 .Texts_blocs{
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 2% 20% 0% 20%;
 }
+
+    .les_trois_blocs, .premier_text{
+        width: 75%;
+    }
 
     .premier_text{
         text-align: center;
-        margin: 0% 0% 3% 0%;
-        font-size: 1.35vw;
+        font-size: 1.7em;
+        color: #575757;
+        margin: auto;
+        margin-top: 2%;
+        font-family: 'Roboto', sans-serif;
     }
 
     .les_trois_blocs{
@@ -72,33 +76,47 @@ header{
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        margin: 0% 0% 4% 0%;
+        margin: auto;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        font-family: 'Roboto', sans-serif;
     }
 
         .blocs{
             text-align: center;
-            width: 33%;
+            width: 33%; 
         }
 
         .titre{
+            font-size: 1.6em;
             text-transform: uppercase;
+            font-weight: 400;
         }
 
+        .text{
+
+            font-size: 1.2em;
+            margin: 0% 8% 5% 8%;
+            font-weight: 300;
+        }
 
     .bloc_dernier_text{
-        width: 90%;
+        width: 68%;
         margin: auto;
         text-align: center;
+        
     }
 
     .dernier_text{
         color: #575757;
-        font-size: 1.3vw;
+        font-size: 1.6em;
         margin: 0;
+        font-family: 'Roboto', sans-serif;
     }
 
     .Amandine{
-        font-size: 1vw;
+        font-size: 1em;
         color: #575C61;
-        margin: 0;
+        margin: 1% 0 0 0;
+        font-family: 'Roboto', sans-serif;
     }
