@@ -54,7 +54,6 @@ header{
     }
 
 .Texts_blocs{
-    border: 1px solid black;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -63,14 +62,12 @@ header{
 }
 
     .premier_text{
-        border: 1px solid black;
         text-align: center;
         margin: 0% 0% 3% 0%;
         font-size: 1.35vw;
     }
 
     .les_trois_blocs{
-        border: 1px solid black;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -79,7 +76,6 @@ header{
     }
 
         .blocs{
-            border: 1px solid black;
             text-align: center;
             width: 33%;
         }
@@ -90,21 +86,18 @@ header{
 
 
     .bloc_dernier_text{
-        border: 1px solid black;
         width: 90%;
         margin: auto;
         text-align: center;
     }
 
     .dernier_text{
-        border: 1px solid black;
         color: #575757;
         font-size: 1.3vw;
         margin: 0;
     }
 
     .Amandine{
-        border: 1px solid black;
         font-size: 1vw;
         color: #575C61;
         margin: 0;
