@@ -59,12 +59,13 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
+    padding: 2% 20% 0% 20%;
 }
 
     #premier_text{
         border: 1px solid black;
         text-align: center;
+        margin: 0% 0% 2% 0%;
     }
 
     #les_trois_blocs{
@@ -72,13 +73,13 @@ header{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin: 0% 0% 2% 0%;
     }
 
         .blocs{
             border: 1px solid black;
             text-align: center;
             width: 33%;
-            
         }
 
         .titre{
@@ -87,6 +88,6 @@ header{
 
     #dernier_text{
         border: 1px solid black;
-        margin: 0em 2em 0em 2em;
+        margin: 0% 2% 2% 2%;
         text-align: center;
     }
