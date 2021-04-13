@@ -1,6 +1,6 @@
 
 
-#Bloc_Page{
+.Bloc_Page{
     width: 80%;
     margin: auto;
 }
@@ -9,10 +9,10 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 1.2vw;
+    font-size: 1.5em;
 }
 
-    #Menu_du_header{
+    .Menu_du_header{
         display: flex;
         align-content: space-between;
     }
@@ -29,7 +29,7 @@ header{
         padding-left: 2em;
     }
 
-#bloc_grosse_image{
+.bloc_grosse_image{
     background-image: url(../Defi_openclassrooms/images/backgroung_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,12 +40,12 @@ header{
 }
 
 
-    #image_centre{
+    .image_centre{
         width: 15em;
         align-self: center;
     }
 
-    #Titre_centre{
+    .Titre_centre{
         color: white;
         font-family: 'Roboto', sans-serif;
         font-size: 2.2em;
@@ -166,3 +166,49 @@ footer{
         color: white;
         list-style-type: none;
         }
+
+
+@media  (min-width: 768px) and (max-width: 991px){
+
+    .menu{
+        font-size: 2em;
+    }
+
+    .Menu_du_header{
+        font-size: 0.6em;
+    }
+
+    .Titre_centre{
+        font-size: 2em;
+    }
+
+    .bloc_grosse_image{
+        background-position: center;
+    }
+
+    .les_trois_blocs, .premier_text, .dernier_text{
+        width: 100%;
+    }
+
+    .premier_text{
+        font-size: 1.3em;
+    }
+
+    .Texts_blocs{
+        font-size: 0.8em;
+    }
+
+
+    .dernier_text{
+        font-size: 1.3em;
+        
+    }
+
+}
+
+@media and (max-width: 767px){
+
+    .bloc_grosse_image{
+        
+    }
+}
