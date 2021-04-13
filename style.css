@@ -138,8 +138,14 @@ footer{
         font-weight: 800;
     }
 
-    i{
-        width: 30%;
+    .icones{
+        width: 25%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 2.3em;
+        color: #BDAED8;
     }
 
     .les_trois_blocs_footer{
@@ -168,7 +174,7 @@ footer{
         }
 
 
-@media  (min-width: 768px) and (max-width: 991px){
+@media  (min-width: 800px) and (max-width: 1388px){
 
     .menu{
         font-size: 2em;
@@ -206,9 +212,14 @@ footer{
 
 }
 
-@media and (max-width: 767px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-    .bloc_grosse_image{
-        
+    .Bloc_Page{
+        width: 100%;
+        margin: 0;
     }
 }
+
+    
+
+   
