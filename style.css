@@ -173,8 +173,7 @@ footer{
         list-style-type: none;
         }
 
-
-@media  (min-width: 800px) and (max-width: 1388px){
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
     .menu{
         font-size: 2em;
@@ -185,7 +184,11 @@ footer{
     }
 
     .Titre_centre{
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+
+    .image_centre{
+        width: 18em;
     }
 
     .bloc_grosse_image{
@@ -197,17 +200,38 @@ footer{
     }
 
     .premier_text{
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     .Texts_blocs{
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
 
 
     .dernier_text{
-        font-size: 1.3em;
+        font-size: 1.5em;
         
+    }
+
+    .Amandine{
+        font-size: 1.1em;
+    }
+
+    .basee_a_Paris{
+        font-size: 1.1em;
+    }
+
+    .icones{
+        font-size: 2em;
+        width: 35%;
+    }
+
+    .les_trois_blocs_footer{
+        font-size: 1.1em;
+    }
+
+    .titres_blocs_footer{
+        font-size: 1.2em;
     }
 
 }
@@ -218,6 +242,113 @@ footer{
         width: 100%;
         margin: 0;
     }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo_entreprise{
+        width: 100%;
+    }
+
+    .Menu_du_header{
+        font-size: 3em;
+    }
+
+    .bloc_grosse_image{
+        background-position: center;
+        font-size: 250%;
+    }
+
+    .premier_text{
+        width: 100%;
+        margin: 0;
+        font-size: 4em;
+        margin-bottom: 2em;
+    }
+
+    .les_trois_blocs{
+        width: 100%;
+        margin: 0;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .blocs{
+        width: 100%;
+        margin-bottom: 6em;
+    }
+
+    .logos{
+        width: 25%;
+    }
+
+    .titre{
+        font-size: 4em;
+    }
+
+    .text{
+        font-size: 3.5em;
+    }
+
+    .bloc_dernier_text{
+        width: 100%;
+        margin-bottom: 4em;
+    }
+
+    .dernier_text{
+        font-size: 4em;
+    }
+
+    .Amandine{
+        font-size: 3em;
+    }
+
+    .basee_a_Paris{
+        font-size: 2.2em;
+        margin-bottom: 2.5em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+
+    .icones{
+        width: 80%;
+        font-size: 5em;
+        margin-bottom: 0.5em;
+    }
+
+    .les_trois_blocs_footer{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 7em;
+    }
+
+    .titres_blocs_footer{
+        text-align: center;
+        font-size: 4em;
+        margin-bottom: 1em;
+    }
+
+    .listes_footer{
+        text-align: center;
+        font-size: 3em;
+        margin: auto;
+        width: 50%;
+        line-height: 1.7em;
+    }
+
+    .Adresse{
+        text-align: center;
+        font-size: 3em;
+        width: 50%;
+        margin: auto;
+    }
+
 }
 
     
